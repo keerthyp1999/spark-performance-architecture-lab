@@ -185,10 +185,3 @@ Optional parameters:
 | Too many tiny tasks | No | No, reduce partitions |
 | One task much slower than others | No | Usually no, handle skew |
 
-## Resume Bullet
-
-Developed a production-style PySpark performance lab on AWS Glue, generating synthetic high-volume datasets to demonstrate Spark architecture, worker and memory scaling, data quality validation, schema drift handling, partitioning, shuffle optimization, broadcast joins, caching, executor metrics, GC behavior, and Spark UI performance debugging.
-
-## Interview Talking Point
-
-This project helped me understand not only how to write Spark transformations, but how Spark actually executes them internally through jobs, stages, tasks, partitioning, shuffle, executor memory, data quality rules, schema evolution, and Spark UI metrics.
